@@ -17,7 +17,7 @@ Run `HuffmanDriver.java` to encode/decode .txt files using Huffman Trees.
 ### Installing
 
 Clone this repository to your local machine:
-`$ git clone https://github.com/dakota-kallas/Huffman-Encoder-Decoder.git`
+<br/>`$ git clone https://github.com/dakota-kallas/Huffman-Encoder-Decoder.git`
 
 ## Example
 
