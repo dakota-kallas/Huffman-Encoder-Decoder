@@ -1,19 +1,28 @@
-# Huffman-Encoder-Decoder
+# Huffman .txt File Encoder/Decoder
 
-Author: Dakota Kallas   
-Date: 11/3/2020       
+Java implementation of a .txt file encoder and decoder using Huffman Trees.
 
-A Java implementation of a .txt file encoder and decoder 
-using Huffman Trees.
+## Files
 
-The HuffmanDriver.java file is used to create the run the
-encoder/decoder, while the other files are used to create
-the structure for the program. HuffmanTree.java creates the
-Huffman Tree structure. HuffmanCodes.java is used to encode a
-.txt file using the Huffman Tree, and HuffmanDecode.java is
-used to decode that encoded file.
+- HuffmanDriver.java - used to run the encoder/decoder
+- HuffmanTree.java - creates the Huffman Tree structure
+- HuffmanCodes.java - encodes a .txt file using the Huffman Tree
+- HuffmanDecode.java - decodes the encoded .txt file
+- Book files - serves as examples to showcase the program's ability to encode and decode .txt files
 
-The book files provided are test examples of what the program does, 
-with book1 being the user provided .txt file, book1.enc being the
-encoded version of the user provided .txt file, and book1NEW.txt
-being the decoded version of book1.txt.
+## Usage
+
+Run `HuffmanDriver.java` to encode/decode .txt files using Huffman Trees.
+
+### Installing
+
+Clone this repository to your local machine:
+`$ git clone https://github.com/dakota-kallas/Huffman-Encoder-Decoder.git`
+
+## Example
+
+Provided book files (`book1.txt`, `book1.enc`, `book1NEW.txt`, etc.) serve as an example of the program's functionality.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
